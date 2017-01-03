@@ -1,0 +1,21 @@
+
+<div class="row">
+	<h3>已经使用容量{$user['now_size']|thesize}|总容量{$user['size']|thesize}</h3>
+</div>
+<div class="row">
+	<table class="table table-striped">
+		<tr>
+			<td>文件名</td>
+			<td>状态</td>
+			<td>速度</td>
+			<td>完成</td>
+			<td>总大小</td>
+			<td>打开</td>
+		</tr>
+		<volist name="info" id="vo">
+			<tr>
+				<td>{$vo['name']}</td><td>{$vo['status']}</td><td>{$vo['speed']|thesize}/S</td><td>{$vo['complete']|thesize}</td><td>{$vo['total']|thesize}</td><td><a href="/index.php/Ondo/dir/hash/{$vo['hash']}" class="glyphicon glyphicon-folder-open"></a></td>
+			</tr>
+		</volist>
+	</table>
+</div>
