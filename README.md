@@ -9,3 +9,10 @@
 数据库 Torrent.sql
 
 
+记得crontab 添加一条
+
+*/1 * * * * curl http://your_website/index.php/Ondo/insert
+
+用于实时刷新下载内容。
+
+
