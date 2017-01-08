@@ -3,6 +3,9 @@
 		public $Aria2;
 		function __construct(){
 			parent::__construct();
+			if(!$_SESSION['uid']){
+				$this->error("请先登入！",U("User/login"));
+			}
 			include 'Aria2.php';
 			$this->Aria2=new Aria2();
 		}
