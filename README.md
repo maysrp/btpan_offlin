@@ -44,7 +44,7 @@ screen -dmS aria2 aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-a
 ```
 
 
-基于ThinkPHP Bootstrap Jquery BTpan Webdir
+基于ThinkPHP Bootstrap Jquery BTpan Webdir Aria2 php-aria2
 
 /uploads /download /Index /Runtime 777
 
@@ -53,9 +53,11 @@ screen -dmS aria2 aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-a
 数据库 Torrent.sql
 
 记得crontab 添加一条
+
 ```
 */1 * * * * curl http://your_website/index.php/Ondo/insert
 ```
+
 用于实时刷新下载内容。
 
 
