@@ -1,7 +1,9 @@
 # btpan_offlin
+
+
 需要安装Aria2 作为后端
 
-Aria2 安装:
+### Aria2 安装:
 
 Debian 8系统 apt-get 安装
  
@@ -42,7 +44,7 @@ apt-get install -y screen
 ```
 screen -dmS aria2 aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all -c 
 ```
-
+## btpan_offlin
 
 基于ThinkPHP Bootstrap Jquery BTpan Webdir Aria2 php-aria2
 
