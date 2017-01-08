@@ -19,7 +19,8 @@ mkdir /root/.aria2
 
 修改配置文件: 下载配置文件:http://webdir.cc/aria2.conf 
 
-修改:  
+修改配置信息请参考:<a href="http://aria2c.com/usage.html">aria2.conf</a>
+
 保存到刚刚的目录上 
 
 ```
